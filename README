@@ -1,0 +1,48 @@
+# AutoBrief — Smart Project Update Dashboard | Python · Streamlit
+
+AutoBrief is a beginner-friendly Python project that simulates project updates from GitHub, Jira, and Slack, and generates concise stakeholder summaries in an interactive Streamlit dashboard. It was built as a learning project to explore data aggregation, simple AI summarization logic, and dashboard visualization.
+
+---
+
+## Features
+
+- Aggregates simulated updates from multiple sources (commits, issues/PRs, Jira tasks, Slack messages).
+- Generates one-line updates for easy reading.
+- Produces a simple deterministic summary for stakeholders (Completed, Blockers, Next Steps).
+- Interactive dashboard using Streamlit with the ability to refresh simulated data.
+- Includes a unit test to ensure the simulated data is structured correctly.
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone <your-repo-url>
+cd AutoBrief
+
+
+Create a virtual environment
+python -m venv .venv
+.venv\Scripts\activate
+
+how to run streamlit
+streamlit run app.py
+
+running the unit test
+python -m unittest test_simulate.py
+
+What I Learned
+
+How to structure a project into modular Python files to make it easy to maintain and understand.
+
+How to simulate multiple data sources (GitHub, Jira, Slack) for testing and dashboards.
+
+Basic techniques for aggregating and summarizing data, even without complex AI.
+
+How to build an interactive Streamlit dashboard and manage session state.
+
+Writing simple unit tests to verify data structure.
+
+Problem-solving: I learned the value of breaking complicated code into small, readable steps, especially as a beginner.
