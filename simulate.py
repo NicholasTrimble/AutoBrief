@@ -1,4 +1,3 @@
-# autobrief/simulate.py
 import random
 from utils import iso, short_sha
 
