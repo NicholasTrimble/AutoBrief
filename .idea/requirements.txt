@@ -1,0 +1,8 @@
+streamlit
+pandas
+requests
+python-dotenv
+# add any others you need, e.g.:
+# numpy
+# openai
+# plotly
